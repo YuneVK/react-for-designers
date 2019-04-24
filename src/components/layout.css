@@ -40,12 +40,26 @@ a {
 }
 
 .Hero a {
-  font-size: 17px;
+  font-size: 17px; 
   font-weight: 600; 
   color: white;
   text-transform: uppercase;
   background: rgba(0, 0, 0, .7 );
   padding: 9px 20px;
   border: 1px solid rgba(255,255,255,.25);
-  border-radius: 20px;
+  border-radius: 20px; 
+}
+
+@media (max-width: 640px) {
+  .HeroGroup {
+    padding: 100px 20px;
+  }
+
+  .Hero h1 {
+    font-size: 40px;
+  }
+
+  .Hero p {
+    font-size: 24px;
+  }
 }
